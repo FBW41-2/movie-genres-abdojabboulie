@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    flex-basis: 500px;
+    height: 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color:darkorchid;
+}
+
+.thriller {
+    background-color: hotpink;
+    
+}
+
+.comedy {
+    background-color:red;
+    
+}
+
+.horror {
+    background-color:blue
+    
+}
+
+.drama {
+    background-color: pink
+}
+
+.romance {
+    background-color:goldenrod }
